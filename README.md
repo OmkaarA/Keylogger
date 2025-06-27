@@ -43,13 +43,13 @@ cd encrypted-keylogger`
 
 ## 🧠 Usage
 
-## 📤 Sender (Keylogger)
+# 📤 Sender (Keylogger)
 `python keylogger_sender_encrypted.py`
 - Starts capturing keystrokes.
 - Sends encrypted data to the receiver.
 - Can be stopped remotely via kill command or locally using the Escape key.
 
-## 📥 Receiver (Server)
+# 📥 Receiver (Server)
 `python receiver_encrypted.py`
 - Listens for incoming encrypted data.
 - Decrypts and logs data in real-time.
