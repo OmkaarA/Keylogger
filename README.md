@@ -39,7 +39,7 @@ cd encrypted-keylogger`
 - Update SERVER_IP and PORT in both scripts (sender.py and receiver.py) to match your environment.
 - Ensure both sender and receiver share the same Fernet KEY.
 
---
+---
 
 ## 🧠 Usage
 
@@ -55,7 +55,7 @@ cd encrypted-keylogger`
 - Decrypts and logs data in real-time.
 - Enter "kill" in the console to remotely stop the sender *OR* Enter "Lctrl+Lshift+q" on the sender side to kill the keylogger locally.
 
---
+---
 
 ## 📄 Log Files
 - Sender:
@@ -66,14 +66,14 @@ cd encrypted-keylogger`
   - received_decrypted_keylog.txt – Decrypted output
   - received_encrypted_keylog.txt – Raw encrypted logs
 
---
+---
 
 ## ⚠️ Legal & Ethical Notice
 This project is intended solely for educational and authorized penetration testing in controlled environments. Unauthorized use of keyloggers may be illegal and unethical.
 
 Always obtain explicit written permission before deploying in any environment that you do not own or control.
 
---
+---
 
 ## 📜 License
 This project is open-source under the MIT License[License].
